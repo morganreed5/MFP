@@ -1,0 +1,49 @@
+html {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+header {
+    float: left;
+}
+
+nav {
+    text-align: right;
+    font-variant-caps: all-small-caps;
+    font-weight: 125px;
+    font-size: 23px;
+    color: darkblue;
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    vertical-align: baseline;
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkblue;
+    text-decoration-line: none;
+}
+
+.navbar:visited, .navbar:hover, navbar:active {
+    color: inherit;
+}
+
+ul {
+    list-style: square;
+}
+
+footer {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+b {
+    font-size: 23px;
+    font-style: bold;
+}

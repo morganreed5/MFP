@@ -1,0 +1,161 @@
+html {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+/* Navigation Bar and Top of Webpage */
+
+header.logo {
+    float: left;
+}
+
+nav {
+    text-align: right;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    font-size: 25px;
+    color: darkblue;
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    vertical-align: baseline;
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkblue;
+    /* removes link underline */
+    text-decoration-line: none;
+}
+
+.navbar:visited, .navbar:hover, navbar:active {
+    color: inherit;
+}
+
+
+/* Footer and Contents of Footer */
+
+footer {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    background-color: darkblue;
+    /* This keeps the footer at the bottom of the browser */
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2px;   
+    line-height: 20px;
+}
+
+b {
+    font-size: 25px;
+    font-style: bold;
+}
+
+p.years {
+    text-align: left;
+    float: top;
+    line-height: 0px;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 15px;
+    padding: -10px;
+    line-height: 0px;
+}
+
+/* Slideshow Controls */
+
+.slider-holder {
+    width: 1000px;
+    height: 700px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+        
+.image-holder {
+    width: 2400px;
+    background-color: red;
+    height: 700px;
+    clear: both;
+    position: relative;
+            
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+        
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 1000px;
+    height: 700px;  
+}
+        
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+        
+#slider-image-2:target ~ .image-holder {
+    left: -1000px;
+}
+        
+#slider-image-3:target ~ .image-holder {
+    left: -2000px;
+}
+        
+.button-holder {
+    position: relative;
+    top: -50px;
+    background-color: green;
+}
+        
+.slider-change {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+        }
+/* End of Slideshow Editing */
+
+
+/* Body of Webpage */
+
+h1 {
+    text-align: center;
+    font-family: inherit;
+    font-variant-caps: all-small-caps;
+    font-size: 60px;
+    color: darkblue;
+}
+
+/* Kim wants to add a banner but it doesn't work yet
+.blue-banner {
+    max-height: 200px;
+    max-width: inherit;
+    text-decoration-color: white;    
+}  */
+
+main {
+    padding: 50px;
+}
+
+ul {
+    list-style: square;
+}
