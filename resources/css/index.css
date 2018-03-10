@@ -6,6 +6,7 @@ html {
     font-size: 20px;
     padding-top: 30px;
     word-wrap: break-word;
+    cursor: pointer;
 }
 
 
@@ -39,6 +40,56 @@ nav {
 .navbar:visited, .navbar:hover, navbar:active {
     color: inherit;
 }
+
+/* TEST DROP DOWN FUNCTION IN NAVBAR */
+/* Styles Dropdown Button */
+.dropbtn {
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    font-size: 25px;
+    color: darkblue;
+    padding: 16px;
+    font-size: inherit;
+    font-style: inherit;
+    border: none;
+    background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f4f5ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+/* Change color of dropdown links on hover and change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-content a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(0, 0, 139, 0.15)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* END OF TEST DROP DOWN FUNCTION IN NAVBAR */
 
 
 /* Footer and Contents of Footer */
@@ -76,7 +127,7 @@ p.copyright {
     line-height: 0px;
 }
 
-/* Holding Image */
+/* Holding Image for index.html aka Home page */
         
 .office {
     display: block;
